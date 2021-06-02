@@ -15,19 +15,19 @@ An AMXX plugin for those who seek extra security for their players and their dat
 - SQL;
 
 ## Cvars
-- **auth_max_accounts** <number> - number of accounts a single SteamID can create (disabled if 0) *(default: 1)*;
-- **auth_max_attempts** <number> - allowed unsuccessful login attempts before punishment (disabled if 0) *(default: 3)*;
-- **auth_login_time** <seconds> - given time for authenticaction before punishment (disabled if 0) *(default: 60)*;
-- **auth_sql_host** <address> - database host;
-- **auth_sql_user** <username> - database username;
-- **auth_sql_pass** <password> - database password;
-- **auth_sql_db** <name> - database name;
-- **auth_sql_table** <name> - database table name;
+- **auth_max_accounts** `<number>` - number of accounts a single SteamID can create (disabled if 0) *(default: 1)*;
+- **auth_max_attempts** `<number>` - allowed unsuccessful login attempts before punishment (disabled if 0) *(default: 3)*;
+- **auth_login_time** `<seconds>` - given time for authenticaction before punishment (disabled if 0) *(default: 60)*;
+- **auth_sql_host** `<address>` - database host;
+- **auth_sql_user** `<username>` - database username;
+- **auth_sql_pass** `<password>` - database password;
+- **auth_sql_db** `<name>` - database name;
+- **auth_sql_table** `<name>` - database table name;
 
 ## Installation
 1. Export the downloaded files into your */addons/amxmodx/* folder;
 2. Create a new database (you can use MySQL for this);
-3. Open the source file */scripting/authentication.sma* and change these cvars to your SQL database settings:
+3. Open the source file */scripting/Authentication.sma* and change these cvars to your SQL database settings:
 ```
 register_cvar("auth_sql_host", "127.0.0.1", FCVAR_PROTECTED);
 register_cvar("auth_sql_user", "YOUR_USER", FCVAR_PROTECTED);
