@@ -1,5 +1,5 @@
 # AMXX Authentication
-An AMXX plugin for those who want an extra layer of security for their players and their data.
+An AMXX plugin for those who seek extra security for their players and their data.
 
 ## Features
 - Only username and password required for registration;
@@ -38,10 +38,10 @@ register_cvar("auth_sql_table", "YOUR_TABLE_NAME", FCVAR_PROTECTED);
 4. Include the plugin in your *plugins.ini* file.
 
 ## Images
-![Authentication menu in-game] (https://github.com/aauga/amxx-authentication/blob/main/images/1.png?raw=true)
-![Player's console after registration] (https://github.com/aauga/amxx-authentication/blob/main/images/2.png?raw=true)
-![Console logs] (https://github.com/aauga/amxx-authentication/blob/main/images/3.png?raw=true)
-![Database] (https://github.com/aauga/amxx-authentication/blob/main/images/4.png?raw=true)
+![Authentication menu in-game](https://github.com/aauga/amxx-authentication/blob/main/images/1.png?raw=true)
+![Player's console after registration](https://github.com/aauga/amxx-authentication/blob/main/images/2.png?raw=true)
+![Console logs](https://github.com/aauga/amxx-authentication/blob/main/images/3.png?raw=true)
+![Database](https://github.com/aauga/amxx-authentication/blob/main/images/4.png?raw=true)
 
 ## Notes
 Tested in Counter-Strike 1.6 on a server which uses **AMX Mod X 1.9.0.5271**. I will not provide support for older AMX Mod X versions.
