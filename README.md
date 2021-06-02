@@ -39,13 +39,13 @@ register_cvar("auth_sql_table", "YOUR_TABLE_NAME", FCVAR_PROTECTED);
 4. Include the plugin in your *plugins.ini* file.
 
 ## Images
-- Authentication menu in-game:
+- Authentication menu in-game:\
 ![Authentication menu in-game](https://github.com/aauga/amxx-authentication/blob/main/images/1.png?raw=true)
-- Player's console after registration:
+- Player's console after registration:\
 ![Player's console after registration](https://github.com/aauga/amxx-authentication/blob/main/images/2.png?raw=true)
-- Server console logs:
+- Server console logs:\
 ![Console logs](https://github.com/aauga/amxx-authentication/blob/main/images/3.png?raw=true)
-- Database:
+- Database:\
 ![Database](https://github.com/aauga/amxx-authentication/blob/main/images/4.png?raw=true)
 
 ## Notes
