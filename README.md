@@ -1,4 +1,5 @@
-# AMXX Authentication
+# AMXX Authentication [![Version badge](https://img.shields.io/badge/release-v1.0-dark.svg)](https://shields.io/)
+
 An AMXX plugin for those who seek extra security for their players and their data.
 
 ## Features
@@ -26,7 +27,7 @@ An AMXX plugin for those who seek extra security for their players and their dat
 ## Installation
 1. Export the downloaded files into your */addons/amxmodx/* folder;
 2. Create a new database (you can use MySQL for this);
-3. Open the source file */scripting/authentication.sma* and change these cvars into your SQL database settings:
+3. Open the source file */scripting/authentication.sma* and change these cvars to your SQL database settings:
 ```
 register_cvar("auth_sql_host", "127.0.0.1", FCVAR_PROTECTED);
 register_cvar("auth_sql_user", "YOUR_USER", FCVAR_PROTECTED);
@@ -38,9 +39,13 @@ register_cvar("auth_sql_table", "YOUR_TABLE_NAME", FCVAR_PROTECTED);
 4. Include the plugin in your *plugins.ini* file.
 
 ## Images
+- Authentication menu in-game:
 ![Authentication menu in-game](https://github.com/aauga/amxx-authentication/blob/main/images/1.png?raw=true)
+- Player's console after registration:
 ![Player's console after registration](https://github.com/aauga/amxx-authentication/blob/main/images/2.png?raw=true)
+- Server console logs:
 ![Console logs](https://github.com/aauga/amxx-authentication/blob/main/images/3.png?raw=true)
+- Database:
 ![Database](https://github.com/aauga/amxx-authentication/blob/main/images/4.png?raw=true)
 
 ## Notes
