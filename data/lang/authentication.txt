@@ -1,0 +1,22 @@
+[en]
+PREFIX = [Auth]
+LOGIN_MENU_TITLE = \yPlease login to your account\r:
+USERNAME = Username
+PASSWORD = Password
+REGISTER = Register
+LOGIN = Login
+
+CONSOLE_INFO = Your account was successfully created. Here are your account details:
+ACCOUNT_CREATED = ^1Your account was successfully created. ^3Check your console for more information^1.
+LOGGED_IN = ^1You have successfully logged in. Welcome back!
+
+WRONG_PASSWORD_WARNING = Wrong password. You have %i attempts left before kick.
+WRONG_PASSWORD = Wrong password. Try again.
+
+LOGIN_TIME_WARNING = You will be kicked in %i seconds if you do not login.
+
+FAILED_USERNAME_CHECK = Failed to check username. Try again.
+FAILED_PASSWORD_CHECK = Failed to check password. Try again.
+FAILED_STEAMID_CHECK = Failed to check SteamID. Try again.
+FAILED_ACCOUNT_CREATION = Failed to create an account. Try again.
+TOO_MANY_ACCOUNTS = You have too many accounts created on your SteamID.
